@@ -1,26 +1,29 @@
 body {
-    background-image: url("background.avif");
+    /*background-image: url("background.avif");*/
+    background: lightblue url("background.avif") no-repeat fixed center;
     margin: 0;
     font-family: 'Arial', sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(20px);
+    
 }
 
+
 header {
-    background-color: #333;
+    background-color: #001f5800;
     padding: 15px 0;
 }
 
 nav ul {
     list-style: none;
     margin: 0;
-    padding: 10;
+    padding: 15;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 25px;
 }
 
 nav a {
@@ -31,11 +34,13 @@ nav a {
 }
 
 nav a:hover {
-    color: #da1800;
+    color: #ffff;
+    border: #0000;
+    background-color: rgb(61, 61, 61, 0.477)
 }
 
 nav a.active {
-    color: #da1800; /* Highlight the active page */
+    color: #ffffff; /* Highlight the active page */
 }
 
 .about-section {
