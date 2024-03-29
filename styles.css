@@ -111,3 +111,33 @@ button {
 button:hover {
     background-color: #da1800;
 }
+
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    max-width: 25%;
+    flex: 1;
+    background-color: #181818a0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    color: white;
+    margin-top: 50px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto 15px;
+}
