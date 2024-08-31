@@ -28,7 +28,7 @@ body::before {
 }
 
 header {
-    background-color: rgba(0, 31, 88, 0.5);
+/*     background-color: rgba(0, 31, 88, 0.5); */
     padding: 15px 0;
 }
 
